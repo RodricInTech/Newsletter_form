@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Tech News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .about {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .about h2 {
+            color: #333;
+        }
+        .about p {
+            line-height: 1.6em;
+        }
+        .btn {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #77aaff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Tech News</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about container">
+        <h2>About Us</h2>
+        <p>Welcome to Tech News, your number one source for the latest updates in technology. We're dedicated to providing you the very best of tech news, with an emphasis on innovation, reliability, and up-to-date information.</p>
+        <p>Our website covers a wide range of topics including the latest gadgets, software updates, cybersecurity, and much more. Stay tuned for the latest trends and insights in the tech world.</p>
+        <button class="btn" onclick="showAlert()">Learn More</button>
+    </section>
+
+    <script>
+        function showAlert() {
+            alert('Thank you for your interest! Stay tuned for more updates.');
+        }
+    </script>
+</body>
+</html>
